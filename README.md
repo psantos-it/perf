@@ -30,6 +30,17 @@ Exemplo:
 ```console
 python3 teste_vazao.py dnsfw_xdp
 ```
+## **teste_latencia.py**
+Realiza o teste da variação do tempo de resposta do servidor DNS para consultas de um domínio.<br>
+Utiliza um arquivo de entrada **domains.txt**<br>
+```markdown
+Uso: teste_latencia.py [-h] {dnsfw_no,dnsfw_rpz,dnsfw_xdp}
+```
+Exemplo:
+```console
+python3 teste_latencia.py dnsfw_xdp
+```
+
 ## Tools
 
 **sar_parse.py**<p>
